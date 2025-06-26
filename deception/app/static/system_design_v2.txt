@@ -1,0 +1,12 @@
+System Architecture Document
+
+Infrastructure Overview:
+~~ http://i.imgur.com/bqkjM5T.jpg http-1.0.3.1-4ubuntu1 (8 KB)
+
+Security Measures:
+- Encryption: ~~ http://i.imgur.com/bqkjM5T.jpg http-1.0.3.1-4ubuntu1 (8 KB)
+- Access Control: ~~ http://i.imgur.com/bqkjM5T.jpg http-1.0.3.1-4ubuntu1 (8 KB)
+- Monitoring: ~~ http://i.imgur.com/bqkjM5T.jpg http-1.0.3.1-4ubuntu1 (8 KB)
+
+Deployment Strategy:
+~~ http://i.imgur.com/bqkjM5T.jpg http-1.0.3.1-4ubuntu1 (8 KB)

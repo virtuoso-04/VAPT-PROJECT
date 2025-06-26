@@ -1,0 +1,42 @@
+System Architecture Document
+
+Infrastructure Overview:
+With the new API, users can now create and edit content, create custom content and even create customized content with custom formatting. As a result, it is much easier to develop content for the platform.
+The new features are coming soon on mobile.  Here are some examples of how they work:
+New Feature - Add an event-based action to your app with a simple action
+Create an action with an initial value and a custom action, such as a 'create a new article' button
+Add a button to create a single article, using an object of the form: 'newarticle', 'edit a blog'
+Customize the article object
+To implement the actions, you can add a
+
+Security Measures:
+- Encryption: With the new API, users can now create and edit content, create custom content and even create customized content with custom formatting. As a result, it is much easier to develop content for the platform.
+The new features are coming soon on mobile.  Here are some examples of how they work:
+New Feature - Add an event-based action to your app with a simple action
+Create an action with an initial value and a custom action, such as a 'create a new article' button
+Add a button to create a single article, using an object of the form: 'newarticle', 'edit a blog'
+Customize the article object
+To implement the actions, you can add a
+- Access Control: With the new API, users can now create and edit content, create custom content and even create customized content with custom formatting. As a result, it is much easier to develop content for the platform.
+The new features are coming soon on mobile.  Here are some examples of how they work:
+New Feature - Add an event-based action to your app with a simple action
+Create an action with an initial value and a custom action, such as a 'create a new article' button
+Add a button to create a single article, using an object of the form: 'newarticle', 'edit a blog'
+Customize the article object
+To implement the actions, you can add a
+- Monitoring: With the new API, users can now create and edit content, create custom content and even create customized content with custom formatting. As a result, it is much easier to develop content for the platform.
+The new features are coming soon on mobile.  Here are some examples of how they work:
+New Feature - Add an event-based action to your app with a simple action
+Create an action with an initial value and a custom action, such as a 'create a new article' button
+Add a button to create a single article, using an object of the form: 'newarticle', 'edit a blog'
+Customize the article object
+To implement the actions, you can add a
+
+Deployment Strategy:
+With the new API, users can now create and edit content, create custom content and even create customized content with custom formatting. As a result, it is much easier to develop content for the platform.
+The new features are coming soon on mobile.  Here are some examples of how they work:
+New Feature - Add an event-based action to your app with a simple action
+Create an action with an initial value and a custom action, such as a 'create a new article' button
+Add a button to create a single article, using an object of the form: 'newarticle', 'edit a blog'
+Customize the article object
+To implement the actions, you can add a

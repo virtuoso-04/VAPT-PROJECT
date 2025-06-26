@@ -1,0 +1,17 @@
+Project Budget 2025
+
+Total Budget: $485M
+Allocated Resources:
+- Development: $485M
+- Marketing: $485M
+- Operations: $485M
+
+Risk Assessment:
+~~~
+
+- New feature: Create and send text on any web page, so you can send messages in any language.
+. This feature is in beta, please test it in real life. :~/
+ (Note: If you see this text in the mailbox, you have not enabled it.)
+...
+:~:
+A full version of the service is now available, or you will have to install it from source. The original version is available in several languages, including French, Italian, German, Spanish, Portuguese, Brazilian Portuguese and Vietnamese. You can download it here: http://www.gizmodo.com/download.html . It is also available for Windows

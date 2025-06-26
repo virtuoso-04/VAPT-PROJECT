@@ -1,0 +1,11 @@
+Project Budget 2025
+
+Total Budget: $278M
+Allocated Resources:
+- Development: $278M
+- Marketing: $278M
+- Operations: $278M
+
+Risk Assessment:
+By default, you will use a custom generated page and will be able to customize the content from time to time. When you click on a title, it will appear at the bottom of the page, so when you run it, the title will show up on the top of your page.
+You can set the custom title as a "no title" button, or click it on any of our pages. It will also appear on your email newsletter, and in the sidebar.

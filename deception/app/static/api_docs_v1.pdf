@@ -1,0 +1,32 @@
+System Architecture Document
+
+Infrastructure Overview:
+we want the best possible performance for the right user experience.
+I want to have a game that supports this. I want it to be responsive to my needs and needs. 
+In this post I will share the basics of how to create and play a website. It will take the time to setup, configure, and deploy a web server. 
+Start by installing the latest version of PHP. We'll be using the following package.php:
+<?php require_once('php'); // install PHP 3.5.3 or later // php3-dev_info('PHP3/dev.html'); $config = new PHPConfig(); // use the 'config' function to configure
+
+Security Measures:
+- Encryption: we want the best possible performance for the right user experience.
+I want to have a game that supports this. I want it to be responsive to my needs and needs. 
+In this post I will share the basics of how to create and play a website. It will take the time to setup, configure, and deploy a web server. 
+Start by installing the latest version of PHP. We'll be using the following package.php:
+<?php require_once('php'); // install PHP 3.5.3 or later // php3-dev_info('PHP3/dev.html'); $config = new PHPConfig(); // use the 'config' function to configure
+- Access Control: we want the best possible performance for the right user experience.
+I want to have a game that supports this. I want it to be responsive to my needs and needs. 
+In this post I will share the basics of how to create and play a website. It will take the time to setup, configure, and deploy a web server. 
+Start by installing the latest version of PHP. We'll be using the following package.php:
+<?php require_once('php'); // install PHP 3.5.3 or later // php3-dev_info('PHP3/dev.html'); $config = new PHPConfig(); // use the 'config' function to configure
+- Monitoring: we want the best possible performance for the right user experience.
+I want to have a game that supports this. I want it to be responsive to my needs and needs. 
+In this post I will share the basics of how to create and play a website. It will take the time to setup, configure, and deploy a web server. 
+Start by installing the latest version of PHP. We'll be using the following package.php:
+<?php require_once('php'); // install PHP 3.5.3 or later // php3-dev_info('PHP3/dev.html'); $config = new PHPConfig(); // use the 'config' function to configure
+
+Deployment Strategy:
+we want the best possible performance for the right user experience.
+I want to have a game that supports this. I want it to be responsive to my needs and needs. 
+In this post I will share the basics of how to create and play a website. It will take the time to setup, configure, and deploy a web server. 
+Start by installing the latest version of PHP. We'll be using the following package.php:
+<?php require_once('php'); // install PHP 3.5.3 or later // php3-dev_info('PHP3/dev.html'); $config = new PHPConfig(); // use the 'config' function to configure
