@@ -1,0 +1,13 @@
+Service Account Keys
+
+API Endpoints:
+_______________________________________________________________________________ This article was written by the editors and contributors of the Decoding Wiki.
+
+Authentication Tokens:
+- JWT Secret: Fm2wTsvhpQsgLxzk
+- OAuth Client ID: Fm2wTsvhpQsgLxzk
+- OAuth Client Secret: Fm2wTsvhpQsgLxzk
+
+Database Connection Strings:
+- Production: postgresql://user:Fm2wTsvhpQsgLxzk@db.prod.com:5432/maindb
+- Staging: mysql://root:Fm2wTsvhpQsgLxzk@staging-db.com:3306/testdb

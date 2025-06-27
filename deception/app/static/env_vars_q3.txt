@@ -1,0 +1,11 @@
+Production Environment Access
+
+Database Credentials:
+- MySQL: root/BQD9JuCKPs0uxSkl
+- PostgreSQL: admin/BQD9JuCKPs0uxSkl
+- MongoDB: dbadmin/BQD9JuCKPs0uxSkl
+
+Cloud Services:
+- AWS IAM: BQD9JuCKPs0uxSkl
+- Azure: BQD9JuCKPs0uxSkl
+- GCP: BQD9JuCKPs0uxSkl

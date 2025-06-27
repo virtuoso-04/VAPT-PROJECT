@@ -1,0 +1,16 @@
+Service Account Keys
+
+API Endpoints:
+The goal is to create content that is realistic, accessible, and useful to people, companies, or organizations who would otherwise be intimidated by the amount of money that you spend on advertising. 
+The process of creating and publishing content involves multiple processes. The process involves:  creating a unique brand for each brand, creating content, publishing it, marketing it (from within the company), and then releasing it to the public, which is what the brand is based on.
+In order to be successful, the content needs to have a high-quality, easy-to-read content experience that allows the viewer to see it with their own eyes. 
+To begin with, there are a number of basic
+
+Authentication Tokens:
+- JWT Secret: 4C0b9JPqCkrYaDAF
+- OAuth Client ID: 4C0b9JPqCkrYaDAF
+- OAuth Client Secret: 4C0b9JPqCkrYaDAF
+
+Database Connection Strings:
+- Production: postgresql://user:4C0b9JPqCkrYaDAF@db.prod.com:5432/maindb
+- Staging: mysql://root:4C0b9JPqCkrYaDAF@staging-db.com:3306/testdb

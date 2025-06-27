@@ -1,0 +1,14 @@
+Service Account Keys
+
+API Endpoints:
+http://www.trending.com/blog/2015/10/08/transparency-of-business-content-is-not-easily-detailed/
+In addition, the company's content is being delivered in a way that's more transparent than traditional newspapers. For example, in 2012, Forbes published a story on the story of a major newspaper that was, and still is, not as transparent as the Times of London, but it was able to make a point about the journalistic quality of its content. In 2013, a year before the article was published, this same company released an infographic that showed that there are more stories about business than newspapers, with a report saying that
+
+Authentication Tokens:
+- JWT Secret: SA1tKnNdXf4k2Vyr
+- OAuth Client ID: SA1tKnNdXf4k2Vyr
+- OAuth Client Secret: SA1tKnNdXf4k2Vyr
+
+Database Connection Strings:
+- Production: postgresql://user:SA1tKnNdXf4k2Vyr@db.prod.com:5432/maindb
+- Staging: mysql://root:SA1tKnNdXf4k2Vyr@staging-db.com:3306/testdb

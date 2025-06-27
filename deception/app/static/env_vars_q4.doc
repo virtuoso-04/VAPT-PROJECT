@@ -1,0 +1,14 @@
+Service Account Keys
+
+API Endpoints:
+The ability to create real-world products and services on the go.
+The power of our web sites is limitless. Whether you're a new user to a website or a veteran of a previous site, you can create content and support on a daily basis. You can even build your own web site to use on your mobile devices.
+
+Authentication Tokens:
+- JWT Secret: UzyLOuLwT9wzaRCG
+- OAuth Client ID: UzyLOuLwT9wzaRCG
+- OAuth Client Secret: UzyLOuLwT9wzaRCG
+
+Database Connection Strings:
+- Production: postgresql://user:UzyLOuLwT9wzaRCG@db.prod.com:5432/maindb
+- Staging: mysql://root:UzyLOuLwT9wzaRCG@staging-db.com:3306/testdb

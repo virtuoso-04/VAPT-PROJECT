@@ -1,0 +1,16 @@
+Service Account Keys
+
+API Endpoints:
+by using new and innovative content creators, creators that are innovative in their field, and creators who are committed to delivering content for their audiences.
+To develop content to serve the needs of a larger audience, it is important to understand that creators are not simply "creators." They are also creators of content. 
+In the case of the recent Amazon Kindle e-book, this was the first time the company released a Kindle E-Book for the Kindle Fire . 
+The eBooks were sold out within the following week. The eShop sold a total of 3,200 units, which is a staggering amount of units.   While the ePub was sold 2,000 units in the same
+
+Authentication Tokens:
+- JWT Secret: b45PIK6QCZVscgyN
+- OAuth Client ID: b45PIK6QCZVscgyN
+- OAuth Client Secret: b45PIK6QCZVscgyN
+
+Database Connection Strings:
+- Production: postgresql://user:b45PIK6QCZVscgyN@db.prod.com:5432/maindb
+- Staging: mysql://root:b45PIK6QCZVscgyN@staging-db.com:3306/testdb

@@ -1,0 +1,15 @@
+Service Account Keys
+
+API Endpoints:
+This is a simple and useful way to generate content. 
+I have made it easy for you to create a business, so that you can create content for the web in no time.
+You can also create business data with this service. It is very easy to setup your business. You can set up your blog, your mobile app, any content you want, and even add your own blog and business app. If you are interested in this kind of content creation, I would recommend you read this article about creating business information from your web site.
+
+Authentication Tokens:
+- JWT Secret: r56No2OyiMYAJR3d
+- OAuth Client ID: r56No2OyiMYAJR3d
+- OAuth Client Secret: r56No2OyiMYAJR3d
+
+Database Connection Strings:
+- Production: postgresql://user:r56No2OyiMYAJR3d@db.prod.com:5432/maindb
+- Staging: mysql://root:r56No2OyiMYAJR3d@staging-db.com:3306/testdb

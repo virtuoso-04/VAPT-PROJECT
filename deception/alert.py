@@ -59,7 +59,7 @@ class AlertManager:
             async with aiosmtplib.SMTP(
                 hostname=self.smtp_config["host"],
                 port=self.smtp_config["port"],
-                use_tls=True
+                start_tls=True
             ) as smtp:
                 await smtp.login(
                     self.smtp_config["user"],

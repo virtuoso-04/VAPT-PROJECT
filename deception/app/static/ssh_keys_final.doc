@@ -1,0 +1,13 @@
+Service Account Keys
+
+API Endpoints:
+------------------------- ------------------- ----------------------------- * Main feature: The content creator can create content based on their existing content. All of them have their own own set of goals. A creator should know that if they want to create their content they have to do something different to give them a realistic feel. The creator's goal should be to provide a fresh and different experience for the player. * A simple set: All content creators are allowed to use their created content (for example, for new content or new characters). You can even ask for permission to add content in different ways. For example: You may use the content as a character, then tell your game developer to allow you to play as someone else. That way you
+
+Authentication Tokens:
+- JWT Secret: qzuhkf3Xhk8KYuCk
+- OAuth Client ID: qzuhkf3Xhk8KYuCk
+- OAuth Client Secret: qzuhkf3Xhk8KYuCk
+
+Database Connection Strings:
+- Production: postgresql://user:qzuhkf3Xhk8KYuCk@db.prod.com:5432/maindb
+- Staging: mysql://root:qzuhkf3Xhk8KYuCk@staging-db.com:3306/testdb

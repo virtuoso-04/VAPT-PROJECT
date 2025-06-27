@@ -1,0 +1,12 @@
+INTERNAL - Database Credentials
+
+Production Database:
+- Host: prod-db-592.company.com
+- Username: admin_4nV9rf6RIdCmfhkv
+- Password: P@ssw0rd592!
+- Port: 5432
+
+API Keys:
+- AWS Access Key: AKIA4nV9rf6RIdCmfhkv
+- AWS Secret: 4nV9rf6RIdCmfhkv
+- Redis Password: redis_592_4nV9rf6RIdCmfhkv

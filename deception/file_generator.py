@@ -18,19 +18,30 @@ class FakeFileGenerator:
         self.static_dir = Path("app/static")
         self.static_dir.mkdir(parents=True, exist_ok=True)
         
-        # Templates for different types of fake files
+        # Enhanced templates with more sophisticated content
         self.templates = {
             "financial": [
                 "Q{quarter} {year} Financial Report\n\nRevenue: ${amount}M\nExpenses: ${amount}M\nNet Profit: ${amount}M\n\nKey Metrics:\n- Customer Acquisition Cost: ${amount}\n- Monthly Recurring Revenue: ${amount}M\n- Churn Rate: {percentage}%\n\nStrategic Initiatives:\n{text}",
-                "Project Budget {year}\n\nTotal Budget: ${amount}M\nAllocated Resources:\n- Development: ${amount}M\n- Marketing: ${amount}M\n- Operations: ${amount}M\n\nRisk Assessment:\n{text}"
+                "Project Budget {year}\n\nTotal Budget: ${amount}M\nAllocated Resources:\n- Development: ${amount}M\n- Marketing: ${amount}M\n- Operations: ${amount}M\n\nRisk Assessment:\n{text}",
+                "CONFIDENTIAL - Financial Audit Report {year}\n\nExecutive Summary:\n{text}\n\nRevenue Analysis:\n- Q1: ${amount}M\n- Q2: ${amount}M\n- Q3: ${amount}M\n- Q4: ${amount}M\n\nCredit Card Processing:\n- Merchant ID: 4532-{amount}\n- API Key: sk_live_{random_string}\n- Daily Volume: ${amount}K transactions"
             ],
             "technical": [
                 "System Architecture Document\n\nInfrastructure Overview:\n{text}\n\nSecurity Measures:\n- Encryption: {text}\n- Access Control: {text}\n- Monitoring: {text}\n\nDeployment Strategy:\n{text}",
-                "API Documentation v{version}\n\nEndpoints:\n{text}\n\nAuthentication:\n{text}\n\nRate Limiting:\n{text}"
+                "API Documentation v{version}\n\nEndpoints:\n{text}\n\nAuthentication:\n{text}\n\nRate Limiting:\n{text}",
+                "INTERNAL - Database Credentials\n\nProduction Database:\n- Host: prod-db-{amount}.company.com\n- Username: admin_{random_string}\n- Password: P@ssw0rd{amount}!\n- Port: 5432\n\nAPI Keys:\n- AWS Access Key: AKIA{random_string}\n- AWS Secret: {random_string}\n- Redis Password: redis_{amount}_{random_string}"
             ],
             "hr": [
                 "Employee Compensation Plan {year}\n\nSalary Bands:\n{text}\n\nBenefits Package:\n{text}\n\nPerformance Metrics:\n{text}",
-                "Organizational Structure\n\nDepartment Overview:\n{text}\n\nReporting Lines:\n{text}\n\nKey Personnel:\n{text}"
+                "Organizational Structure\n\nDepartment Overview:\n{text}\n\nReporting Lines:\n{text}\n\nKey Personnel:\n{text}",
+                "CONFIDENTIAL - Employee Database Export\n\nEmployee Records ({year}):\n{text}\n\nSSN Database:\n- John Smith: 123-45-{amount}\n- Mary Johnson: 987-65-{amount}\n- David Wilson: 555-44-{amount}\n\nSalary Information:\n- CEO: ${amount}K annually\n- CTO: ${amount}K annually\n- Engineering Team: ${amount}K average"
+            ],
+            "security": [
+                "Security Audit Report {year}\n\nVulnerability Assessment:\n{text}\n\nCritical Findings:\n- Unpatched Systems: {amount}\n- Open Ports: {amount}\n- Weak Passwords: {percentage}%\n\nPenetration Test Results:\n{text}",
+                "CLASSIFIED - Network Security Configuration\n\nFirewall Rules:\n{text}\n\nVPN Configuration:\n- Server: vpn.company.com\n- Shared Key: {random_string}\n- Certificate: {random_string}\n\nAdmin Credentials:\n- Username: security_admin\n- Password: Secure{amount}!\n- 2FA Backup Codes: {random_string}"
+            ],
+            "credentials": [
+                "Production Environment Access\n\nDatabase Credentials:\n- MySQL: root/{random_string}\n- PostgreSQL: admin/{random_string}\n- MongoDB: dbadmin/{random_string}\n\nCloud Services:\n- AWS IAM: {random_string}\n- Azure: {random_string}\n- GCP: {random_string}",
+                "Service Account Keys\n\nAPI Endpoints:\n{text}\n\nAuthentication Tokens:\n- JWT Secret: {random_string}\n- OAuth Client ID: {random_string}\n- OAuth Client Secret: {random_string}\n\nDatabase Connection Strings:\n- Production: postgresql://user:{random_string}@db.prod.com:5432/maindb\n- Staging: mysql://root:{random_string}@staging-db.com:3306/testdb"
             ]
         }
 
@@ -60,6 +71,11 @@ class FakeFileGenerator:
         
         return generated_text
 
+    def _generate_random_string(self, length: int = 16) -> str:
+        """Generate random string for fake credentials."""
+        import string
+        return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
+
     def _generate_fake_amount(self) -> str:
         """Generate a realistic-looking financial amount."""
         return f"{random.randint(1, 999):,}"
@@ -68,16 +84,22 @@ class FakeFileGenerator:
         """Generate a realistic-looking percentage."""
         return f"{random.uniform(0.1, 15.0):.1f}"
 
-    def _generate_filename(self, category: str) -> str:
-        """Generate a realistic-looking filename."""
+    def _generate_honeypot_filename(self, category: str) -> str:
+        """Generate enticing filenames that attackers would target."""
         prefixes = {
-            "financial": ["financial_report", "budget", "revenue", "expenses", "profit_loss"],
-            "technical": ["architecture", "api_docs", "system_design", "security_audit"],
-            "hr": ["compensation", "org_structure", "employee_data", "benefits"]
+            "financial": ["financial_report", "budget", "revenue", "expenses", "profit_loss", "bank_statements", "tax_returns", "audit_report"],
+            "technical": ["architecture", "api_docs", "system_design", "security_audit", "database_schema", "server_config", "backup_scripts"],
+            "hr": ["compensation", "org_structure", "employee_data", "benefits", "performance_reviews", "salary_survey", "termination_list"],
+            "security": ["security_scan", "vulnerability_report", "penetration_test", "firewall_config", "incident_response", "threat_assessment"],
+            "credentials": ["passwords", "api_keys", "config", "secrets", "env_vars", "service_accounts", "ssh_keys", "certificates"]
         }
         
-        suffixes = ["_q1", "_q2", "_q3", "_q4", f"_{datetime.now().year}", "_draft", "_final", "_v1", "_v2"]
-        extensions = [".txt", ".md", ".doc", ".pdf"]
+        suffixes = [
+            "_q1", "_q2", "_q3", "_q4", f"_{datetime.now().year}", 
+            "_draft", "_final", "_v1", "_v2", "_confidential", "_internal",
+            "_backup", "_export", "_dump", "_latest", "_production"
+        ]
+        extensions = [".txt", ".md", ".doc", ".pdf", ".xlsx", ".csv", ".json", ".xml", ".sql", ".env"]
         
         prefix = random.choice(prefixes[category])
         suffix = random.choice(suffixes)
@@ -91,7 +113,7 @@ class FakeFileGenerator:
             category = random.choice(list(self.templates.keys()))
             
         template = random.choice(self.templates[category])
-        filename = self._generate_filename(category)
+        filename = self._generate_honeypot_filename(category)
         
         # Replace placeholders with generated content
         content = template.format(
@@ -100,7 +122,8 @@ class FakeFileGenerator:
             amount=self._generate_fake_amount(),
             percentage=self._generate_fake_percentage(),
             version=f"{random.randint(1, 3)}.{random.randint(0, 9)}",
-            text=self._generate_text("Generate realistic business content: ")
+            text=self._generate_text("Generate realistic business content: "),
+            random_string=self._generate_random_string()
         )
         
         # Save the file
@@ -117,4 +140,4 @@ class FakeFileGenerator:
 
     def generate_multiple_files(self, count: int = 5) -> List[Dict]:
         """Generate multiple fake files."""
-        return [self.generate_fake_file() for _ in range(count)] 
+        return [self.generate_fake_file() for _ in range(count)]

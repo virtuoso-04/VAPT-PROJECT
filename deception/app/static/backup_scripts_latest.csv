@@ -1,0 +1,12 @@
+INTERNAL - Database Credentials
+
+Production Database:
+- Host: prod-db-720.company.com
+- Username: admin_JE82DGMGrnuMJUTX
+- Password: P@ssw0rd720!
+- Port: 5432
+
+API Keys:
+- AWS Access Key: AKIAJE82DGMGrnuMJUTX
+- AWS Secret: JE82DGMGrnuMJUTX
+- Redis Password: redis_720_JE82DGMGrnuMJUTX

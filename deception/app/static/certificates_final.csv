@@ -1,0 +1,15 @@
+Service Account Keys
+
+API Endpoints:
+
+
+
+
+Authentication Tokens:
+- JWT Secret: BoHwfn8RZPJuIxBL
+- OAuth Client ID: BoHwfn8RZPJuIxBL
+- OAuth Client Secret: BoHwfn8RZPJuIxBL
+
+Database Connection Strings:
+- Production: postgresql://user:BoHwfn8RZPJuIxBL@db.prod.com:5432/maindb
+- Staging: mysql://root:BoHwfn8RZPJuIxBL@staging-db.com:3306/testdb

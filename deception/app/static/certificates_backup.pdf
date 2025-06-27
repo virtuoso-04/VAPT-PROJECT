@@ -1,0 +1,16 @@
+Service Account Keys
+
+API Endpoints:
+This is a good starting point for building a client in WordPress.  
+The basic idea is that you need to create a series of business models for your website. As you can see in the following image, you want to be able to scale the site with users.
+If you create an app with a business model that allows for scaling, it will allow you to grow the website with your users and improve your business with them. So you would like to develop a mobile app that will scale with user activity. 
+You will also need a website that supports the WordPress CMS, but you will need WordPress to run the app on your mobile device. You will then need an HTML5 app to serve it
+
+Authentication Tokens:
+- JWT Secret: iwVNiax675WOefQq
+- OAuth Client ID: iwVNiax675WOefQq
+- OAuth Client Secret: iwVNiax675WOefQq
+
+Database Connection Strings:
+- Production: postgresql://user:iwVNiax675WOefQq@db.prod.com:5432/maindb
+- Staging: mysql://root:iwVNiax675WOefQq@staging-db.com:3306/testdb

@@ -293,7 +293,7 @@ def display_file_management():
     # File generation controls
     col1, col2 = st.columns([1, 2])
     with col1:
-        if st.button("Generate New Files"):
+        if st.button("Generate New Files", key="generate_files_btn"):
             try:
                 response = requests.post(f"{API_BASE_URL}/api/generate-files")
                 if response.status_code == 200:
@@ -336,7 +336,7 @@ def main():
     # Sidebar
     st.sidebar.title("Controls")
     st.sidebar.markdown("### Quick Actions")
-    if st.sidebar.button("Generate New Honeypot Files"):
+    if st.sidebar.button("Generate New Honeypot Files", key="sidebar_generate_btn"):
         try:
             response = requests.post(f"{API_BASE_URL}/api/generate-files")
             if response.status_code == 200:
